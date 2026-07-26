@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wayly1</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+
+    header p {
+      margin: 10px 0 0;
+      color: #ddd;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .welcome {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+    }
+
+    .product {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .product h2 {
+      font-size: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #ff9900;
+      color: white;
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Wayly1</h1>
+  <p>منتجات مختارة لك</p>
+</header>
+
+<div class="container">
+
+  <div class="welcome">
+    <h2>مرحبًا بك في موقع Wayly1</h2>
+    <p>اكتشف المنتجات المميزة واختر ما يناسبك.</p>
+  </div>
+
+  <div class="products">
+
+    <div class="product">
+      <h2>منتج مميز 1</h2>
+      <p>وصف المنتج هنا</p>
+      <a class="button" href="#" target="_blank">شاهد المنتج</a>
+    </div>
+
+    <div class="product">
+      <h2>منتج مميز 2</h2>
+      <p>وصف المنتج هنا</p>
+      <a class="button" href="#" target="_blank">شاهد المنتج</a>
+    </div>
+
+    <div class="product">
+      <h2>منتج مميز 3</h2>
+      <p>وصف المنتج هنا</p>
+      <a class="button" href="#" target="_blank">شاهد المنتج</a>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Wayly1
+</footer>
+
+</body>
+</html>
